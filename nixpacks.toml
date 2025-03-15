@@ -9,7 +9,6 @@ nixPkgs = [
     "libmysqlclient"
 ]
 
-
 [phases.build]
 cmds = [
     "composer install --no-dev --optimize-autoloader",
