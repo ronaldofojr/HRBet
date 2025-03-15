@@ -11,3 +11,5 @@ yarn-error.log
 /.vscode
 storage/dotenv-editor/backups/
 htdocs.zip
+storage/dotenv-editor/backups/
+htdocs.zip
