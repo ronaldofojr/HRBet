@@ -1,3 +1,4 @@
+]
 [phases.setup]
 nixPkgs = [
     "php81",
@@ -7,7 +8,6 @@ nixPkgs = [
     "php81Extensions.simplexml",
     "php81Extensions.zip",
     "libmysqlclient"
-]
 
 [phases.build]
 cmds = [
