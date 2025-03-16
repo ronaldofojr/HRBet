@@ -7,6 +7,7 @@ nixPkgs = [
     "php81Extensions.simplexml",
     "php81Extensions.zip",
     "libmysqlclient"
+]  # <- Adicionei esse fechamento de colchetes aqui
 
 [phases.build]
 cmds = [
