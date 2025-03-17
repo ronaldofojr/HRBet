@@ -3,8 +3,8 @@ nixPkgs = [
     "php81",
     "php81Extensions.curl",
     "php81Extensions.intl",
-    "libxml2",
-    "php81Extensions.xml",  # <- Substitui "libxml" por "xml"
+    "libxml2",  # Esse é o correto
+    "php81Extensions.xml",  # Substitui php81Extensions.libxml
     "php81Extensions.simplexml",
     "php81Extensions.zip",
     "libmysqlclient"
