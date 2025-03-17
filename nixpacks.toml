@@ -4,10 +4,11 @@ nixPkgs = [
     "php81Extensions.curl",
     "php81Extensions.intl",
     "libxml2",
+    "php81Extensions.xml",  # <- Substitui "libxml" por "xml"
     "php81Extensions.simplexml",
     "php81Extensions.zip",
     "libmysqlclient"
-]  # <- Adicionei esse fechamento de colchetes aqui
+]
 
 [phases.build]
 cmds = [
